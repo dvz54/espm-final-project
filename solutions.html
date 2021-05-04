@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <script src="./items.js" defer></script>
+        <title>Snow Management Solutions</title>
+        <meta name="description" content="ESPM 50AC Snow Management Solutions">
+        <meta name="author" content="David Zheng">
+    </head>
+    <body>
+        <header>
+            <div id="info">
+                <img src="./images/ucblogo.png" id="logo">
+                <div id="info-text">
+                    <h4>ESPM 50AC</h4>
+                </div>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <a href="./index.html"><li><p class="navbutton">Home</p></li></a>
+                    <a href="./ice.html"><li><p class="navbutton">Ice Removal</p></li></a>
+                    <a href="#"><li><p class="navbutton">Solutions</p></li></a>
+                    <a href="./resources.html"><li><p class="navbutton">Resources</p></li></a>
+                    <a href="./bibliography.html"><li><p class="navbutton">Bibliography</p></li></a>
+                </ul>
+            </nav>
+            <container class="landing">
+                <h1>Recommended Solutions</h1>
+                <div class="blurb">
+                    <p>Here are our recommended snow management solutions. Each solution has a characteristic scope, the area or object it manages snow for, and a usage tag, which indicates how you'd use the solution. For solutions with varying price, click on the "read more" button to find out how you can schedule an appraisal. Feel free to browse through all solutions at once, or find your custom solution by using our filter below.</p>
+                </div>
+                <div id="filters">
+                    <h2>Find your Custom Solution!</h2>
+                    <label for="price-selector">Sort by price</label>
+                    <select name="price" id="price-selector">
+                        <option value="none">-</option>
+                        <option value="low-high">Price Low to High</option>
+                        <option value="high-low">Price High to Low</option>
+                    </select>
+                    <label for="scope-selector">Filter by scope</label>
+                    <select name="scope" id="scope-selector">
+                        <option value="any">Any</option>
+                        <option value="household">Household</option>
+                        <option value="vehicle">Vehicle</option>
+                        <option value="area">Area</option>
+                    </select>
+                    <label for="usage-selector">Filter by usage</label>
+                    <select name="usage" id="usage-selector">
+                        <option value="any">Any</option>
+                        <option value="automatic">Automatic</option>
+                        <option value="machinery">Machinery</option>
+                        <option value="manual">Manual</option>
+                        <option value="service">Service</option>
+                    </select>
+                    <h4 id="search">Apply Filters</h4>
+                    <h4 href="#" id="reset">Reset Filters</h4>
+                </div>
+            </container>
+        </header>
+        <main>
+            <div id="items">
+                <container class="item">
+                    <article>
+                        <h2>Snowbot</h2>
+                        <h3>By Hanyang Robotics</h3>
+                        <ul>
+                            <li>Cost: $2000</li>
+                            <li>Scope: Household</li>
+                            <li>Usage: Automatic</li>
+                        </ul>
+                        <p>Snowbot, to be released in 2021, is an all-new artificially intelligent snowblower. It features a 360 degree rotation blower with a 20 foot range along with a snow brush for effective and comprehensive snow removal for your driveway. Ultrasonic sensors allow it to detect nearby objects and avoid obstacles. Rubber tracks and cold resistance allow it to remain functional in freezing weather. Its app features an automatic snow sweeping path along with customizable options.</p>
+                        <p>We recommend Snowbot for those who find themselves busy and are willing to splurge a little for one of the most technologically advanced solutions. Snowbot may also be a good fit for you if weather conditions or safety are concerns.</p>
+                        <a href="https://thesnowbot.com" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/snowbot.jpg">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>SnoBrum-AUTO</h2>
+                        <h3>By SNOBRUM</h3>
+                        <ul>
+                            <li>Cost: $40</li>
+                            <li>Scope: Vehicle</li>
+                            <li>Usage: Manual</li>
+                        </ul>
+                        <p>The SnoBrum-AUTO was designed to move snow quickly and efficiently. It features a push broom design that makes it easy and seamless to use and a polyethylene foam blade that prevents it from causing harm to vehicles and windows.</p>
+                        <p>If you enjoy parking outside, then the SnoBrum-AUTO is the perfect fit for you. Designed for brushing snow off vehicles, this device will protect your paintjob while removing snow effectively.</p>
+                        <a href="https://www.amazon.com/SnoBrum-Push-Broom-Extendable-Telescoping-Scratching/dp/B0007LDXLA" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/snobrum.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Snow Joe SJ-SHLV01</h2>
+                        <h3>By Snow Joe</h3>
+                        <ul>
+                            <li>Cost: $30</li>
+                            <li>Scope: Household</li>
+                            <li>Usage: Manual</li>
+                        </ul>
+                        <p>This shovel features an additional handle to reduce the strain while shoveling snow.</p>
+                        <p>We recommend this shovel for those who like getting the job done by hand. The additional handle allows the user to handle heavier loads while maintaining a healthy posture.</p>
+                        <a href="https://www.amazon.com/Snow-Joe-SJ-SHLV01-Shovelution-Strain-Reducing/dp/B01LXEQ6UM/ref=sxin_10?asc_contentid=amzn1.osa.a6c1f1e9-3d86-42d4-b8ef-0b93381665ec.ATVPDKIKX0DER.en_US&asc_contenttype=article&ascsubtag=amzn1.osa.a6c1f1e9-3d86-42d4-b8ef-0b93381665ec.ATVPDKIKX0DER.en_US&creativeASIN=B01LXEQ6UM&cv_ct_cx=snow+shovel&cv_ct_id=amzn1.osa.a6c1f1e9-3d86-42d4-b8ef-0b93381665ec.ATVPDKIKX0DER.en_US&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&dchild=1&keywords=snow+shovel&linkCode=oas&pd_rd_i=B01LXEQ6UM&pd_rd_r=21ff310a-eb54-4ac2-b593-4c527f2feca7&pd_rd_w=w0Egp&pd_rd_wg=xsDfg&pf_rd_p=c5aa77b7-f0ac-4b95-b207-5ef230c60c9b&pf_rd_r=V0D8DRXR1JNTSX74QXR2&qid=1619920097&sr=1-1-64f3a41a-73ca-403a-923c-8152c45485fe&tag=aimassociatesski-20" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/snowjoe.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Snow Joe SJ619E</h2>
+                        <h3>By Snow Joe</h3>
+                        <ul>
+                            <li>Cost: $142</li>
+                            <li>Scope: Household</li>
+                            <li>Usage: Machinery</li>
+                        </ul>
+                        <p>The traditional but reliable snow blower. The Snow Joe SJ619E is powered by electricity, relieving the need to stock up and manage gasoline. Its 14.5 amp motor is capable of moving 650 pounds of snow per minute, which makes it great for clearing snow from overcrowded driveways.</p>
+                        <p>This snow blower is ideal for customers willing to spend a little more for an easier snow clearing experience. Its electric power source makes maintenance hassle free while its engine makes clearing large amounts of snow a piece of cake.</p>
+                        <a href="https://www.amazon.com/Snow-Joe-SJ619E-Electric-Thrower/dp/B017E9NKOC/ref=sr_1_1_sspa?dchild=1&keywords=snow+blower&qid=1620071598&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTRUJUVUFCSzBQNDkmZW5jcnlwdGVkSWQ9QTA3ODQ3MTBVNElMTTA0T0FNMVcmZW5jcnlwdGVkQWRJZD1BMDIxNjE1NDE2WlFCM1A1MkhKRUQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/snowblower.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Minnesota Site Plowing</h2>
+                        <h3>Offered by Interstate Companies</h3>
+                        <ul>
+                            <li>Cost: Varies</li>
+                            <li>Scope: Area</li>
+                            <li>Usage: Service</li>
+                        </ul>
+                        <p>Interstate Companies offers commercial snow plowing for larger areas, such as neighborhoods, parking lots, and more. Their methods range from fleets of snowplow vehicles to individual workers with shovels for any situation. Visit their website to set up an appraisal for your area and get an estimate for pricing.</p>
+                        <p>Commercial plowing is only viable for large organizations or cities. If you manage an applicable area however, Interstate Companies is a great fit.</p>
+                        <a href="https://interstatepm.com/commercial-snow-plowing/" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/interstate.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Minnesota Deicing and Anti-Icing</h2>
+                        <h3>Offered by Interstate Companies</h3>
+                        <ul>
+                            <li>Cost: Varies</li>
+                            <li>Scope: Area</li>
+                            <li>Usage: Service</li>
+                        </ul>
+                        <p>Fear not if your snow has condensed into ice, for there may be hope yet! Interstate Companies offers ice removal as well as ice prevention in the form of chemical compounds. Visit their site to schedule an appraisal for your area and get an estimate on pricing.</p>
+                        <p>As ice removal can be a complicated process, we recommend using this service if the ice in your area is starting to affect accident rates.</p>
+                        <a href="https://interstatepm.com/snow-ice-management/" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/interstate.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Home Plow</h2>
+                        <h3>By Meyer</h3>
+                        <ul>
+                            <li>Cost: $3000</li>
+                            <li>Scope: Area</li>
+                            <li>Usage: Machinery</li>
+                        </ul>
+                        <p>This snow plow truck add-on measures 90 inches by 22 inches and comes with a wireless remote to help with horizontal angle setting. It is made of durable steel and is compatible with SUVs in addition to trucks. This item is also available to rent for $500 per month.</p>
+                        <p>We recommend this snow plow for those looking to service their communities with regard to snow management. This is a great option for communities that own trucks but not commercial snow plow vehicles.</p>
+                        <a href="https://www.homedepot.com/p/Home-Plow-by-Meyer-90-in-x-22-in-Residential-Power-Angle-Snow-Plow-26500/203539923" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/meyer.png">
+                </container>
+                <container class="item">
+                    <article>
+                        <h2>Personal Snow Plowing (Minnesota)</h2>
+                        <h3>Offered by Lawn & Turf</h3>
+                        <ul>
+                            <li>Cost: Varies</li>
+                            <li>Scope: Household</li>
+                            <li>Usage: Service</li>
+                        </ul>
+                        <p>Lawn & Turf bolsters a fleet of snow plow vehicles and constantly monitors the weather for incoming snowfall. Visit their website to obtain pricing estimates and sign up for plowing services.</p>
+                        <p>Lawn & Turf is great for customers who are too busy or otherwise unable to clear out their driveways after a snowstorm. Their flexible pricing and wide range of vehicles make this option viable and effective for everyone.</p>
+                        <a href="https://lawnandturfonline.com/snow-plowing/" target="_blank">Read More</a>
+                    </article>
+                    <img src="./images/lawnandturf.png">
+                </container>
+            </div>
+        </main>
+        <footer>
+            <p>Created by David Zheng</p>
+            <p>Final project for ESPM 50AC at the University of California, Berkeley</p>
+        </footer>
+    </body>
+</html>
